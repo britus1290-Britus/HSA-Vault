@@ -1,0 +1,19 @@
+# Domain Design Document
+
+#### Purpose
+This document defines the Domain Driven Design (DDD) architecture for an HSA-focused SaaS platform that enables users to:
+
+Securely store medical receipts
+Extract structured expense data via OCR
+Track qualified medical expenses
+Maintain a running reimbursable HSA balance
+Preserve audit-ready records for future tax-free reimbursement
+The MVP intentionally avoids:
+
+Custody of funds
+Investment advice
+Direct tax filing
+Money movement
+The platform is positioned as:
+
+A financial recordkeeping and reimbursement intelligence platform for HSA users.
