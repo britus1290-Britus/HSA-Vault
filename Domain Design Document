@@ -36,3 +36,22 @@ Preserve qualified medical expenses indefinitely
 Maintain audit-ready reimbursement records
 Unlock delayed reimbursement strategies
 Build tax-free liquidity over time
+
+#### Ubiquitous Language
+
+The following terms are standardized across engineering, product, support, and compliance.
+
+**Term	Definition:**
+
+Receipt	Uploaded proof of payment for medical expense
+Expense	Structured medical transaction extracted from receipt
+Qualified Expense	Expense believed to qualify under IRS Publication 502
+Reimbursement Balance	Total unreimbursed qualified expenses
+OCR Extraction	Parsed receipt data from uploaded image/PDF
+Provider	Merchant, clinic, pharmacy, or healthcare vendor
+Evidence Package	Immutable audit record associated with expense
+User Vault	User’s long-term receipt storage space
+Tag	Classification label assigned to expense
+Verification Status	Confidence level of expense qualification
+Account	Authenticated user identity
+Audit Trail	Immutable record of system/user actions
