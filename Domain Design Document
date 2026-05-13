@@ -55,3 +55,40 @@ Tag	Classification label assigned to expense
 Verification Status	Confidence level of expense qualification
 Account	Authenticated user identity
 Audit Trail	Immutable record of system/user actions
+
+#### Bounded Contexts
+
+A. Identity & Access Context
+Responsible for:
+
+Authentication
+Authorization
+User security
+Session management
+Entities
+User
+Session
+Credential
+MFAChallenge
+Responsibilities
+Secure login
+Password reset
+MFA
+Device trust
+
+B. Receipt Management Context
+Responsible for:
+
+Uploading receipts
+Storing files
+Managing metadata
+OCR ingestion
+Entities
+Receipt
+ReceiptFile
+UploadJob
+OCRResult
+Value Objects
+FileChecksum
+UploadSource
+FileType
