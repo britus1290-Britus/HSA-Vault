@@ -56,9 +56,9 @@ Verification Status	Confidence level of expense qualification
 Account	Authenticated user identity
 Audit Trail	Immutable record of system/user actions
 
-#### Bounded Contexts
+#### Bounded Context
 
-A. Identity & Access Context
+Identity & Access Context
 Responsible for:
 
 Authentication
@@ -76,7 +76,24 @@ Password reset
 MFA
 Device trust
 
-B. Receipt Management Context
+#### Receipt Management Context
+Responsible for:
+
+Uploading receipts
+Storing files
+Managing metadata
+OCR ingestion
+Entities
+Receipt
+ReceiptFile
+UploadJob
+OCRResult
+Value Objects
+FileChecksum
+UploadSource
+FileType
+
+Receipt Management Context
 Responsible for:
 
 Uploading receipts
