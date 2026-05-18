@@ -93,19 +93,23 @@ FileChecksum
 UploadSource
 FileType
 
-Receipt Management Context
+#### Expense Intelligence Context
+
 Responsible for:
 
-Uploading receipts
-Storing files
-Managing metadata
-OCR ingestion
-Entities
-Receipt
-ReceiptFile
-UploadJob
-OCRResult
+Parsing OCR output
+Structuring medical expenses
+Tagging qualification status
+
+**Entities**
+Expense
+Provider
+ExpenseClassification
 Value Objects
-FileChecksum
-UploadSource
-FileType
+Money
+ServiceDate
+ExpenseCategory
+QualificationConfidence
+
+
+
