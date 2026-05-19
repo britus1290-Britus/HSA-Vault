@@ -94,7 +94,6 @@ UploadSource
 FileType
 
 #### Expense Intelligence Context
-
 Responsible for:
 
 Parsing OCR output
@@ -110,6 +109,32 @@ Money
 ServiceDate
 ExpenseCategory
 QualificationConfidence
+
+#### Reimbursement Ledger Context
+Responsible for:
+
+Running reimbursable balance
+Tracking reimbursement state
+Preventing duplicate reimbursement
+Entities
+ReimbursementLedger
+LedgerEntry
+ReimbursementEvent
+Value Objects
+ReimbursementAmount
+ExpenseReference
+
+#### Compliance & Audit Context
+Responsible for:
+
+Immutable records
+Audit logs
+Retention policies
+Evidence preservation
+Entities
+AuditRecord
+EvidencePackage
+RetentionPolicy
 
 
 
